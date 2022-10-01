@@ -1,0 +1,52 @@
+let user = `[
+
+    {
+        "id":"1",
+        "firstName" : "Billy",
+        "lastName" : "Graham",
+        "position" : "Bank Manager",
+        "age": 35,
+        "priority": 0,
+        "img": "images/monday.jpg"
+        
+    }, 
+    {
+        "id":"13",
+        "firstName" : "Maria",
+        "lastName" : "George",
+        "position" : "Secretary",
+        "age": 30,
+        "priority": 0,
+        "img": "images/tuesday.jpg"
+
+    }, 
+    {
+        "id":"11",
+        "firstName" : "Halley",
+        "lastName" : "Seriman",
+        "position" : "Programmer",
+        "age": 32,
+        "priority": 0,
+        "img": "images/wednesday.jpg"
+
+    },
+    {
+        "id":"50",
+        "firstName" : "Ezra",
+        "lastName" : "Walker",
+        "position" : "PR",
+        "age": 40,
+        "priority": 0,
+        "img": "images/thursday.jpg"
+    },
+     {
+        "id":"20",
+        "firstName" : "Anna",
+        "lastName" : "Emmanuel",
+        "position" : "Cooker",
+        "age": 38,
+        "priority": 0,
+        "img": "images/friday.jpg"
+    
+    }
+]`;
