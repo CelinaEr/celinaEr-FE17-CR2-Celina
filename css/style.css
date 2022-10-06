@@ -1,23 +1,44 @@
 body {
-   background-color: antiquewhite;
+  
   margin: 0;
   padding: 0;
   text-align: center;
 };
 
+.mynav{
+  
+  height:500px;
+  
+}
 .navbar{
-  width:100%;
-  color: #332727;
-  display: flex;
-    list-style: none;
-    margin: 0;
-    font-size: 0.7em;
-    width: 120px;
-  margin: 15px;
-  padding: 15px;
-    
+background-color: transparent !important;
+
+}
+.navbar .navbar-brand{
+  color : rgb(70, 61, 61) !important;
+  font-weight: bolder;
+  font-size: 1.3em;
+  background-color: rgb(173, 125, 125) !important;
+}
+.navbar .navbar-nav{
+  margin: 0 auto;
+  background-color: rgb(173, 125, 125) !important;
+  
+}
+.navbar .nav-item a{
+  color: #FFF !important;
+ 
 }
 
+.collapse .navbar-nav{
+  color: #282d32; 
+}
+.card{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 .container{
   width:100%;
@@ -28,123 +49,117 @@ body {
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-.footer-dark {
-  padding:50px 0;
-  color:#f0f9ff;
-  background-color:#282d32;
+.myfooter{
+  width: 70%;
+  background-color: rgb(173, 125, 125) !important;
+  display: flex;
+  padding: 0px 90px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+  
+
 }
 
-.footer-dark h3 {
-  margin-top:0;
-  margin-bottom:12px;
-  font-weight:bold;
-  font-size:16px;
+.container footer{
+  position: absolute;
+        bottom: 100px;
+        left: 0;
+        right: 0;
+        background:rgb(173, 125, 125) !important;
+        height:auto;
+        width: 100vw;
+        font-family: "Open Sans";
+        padding-top: 40px;
+        color: #FFF;
+        display: flex;
 }
 
-.footer-dark ul {
-  padding:0;
-  list-style:none;
-  line-height:1.6;
-  font-size:14px;
-  margin-bottom:0;
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1,8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+max-width: 500px;
+margin: 10px auto;
+line-height: 28px;
+font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+
 }
 
-.footer-dark ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.6;
+.socials li{
+  margin: 0 10px;
 }
 
-.footer-dark ul a:hover {
-  opacity:0.8;
+.socials a{
+  text-decoration: none;
+  color: #FFF;
 }
+
+.socials a i{
+  font-size: 1.1rem ;
+  transition: color .4s ease;
+}
+
+.socials a:hover i{
+  color: aqua;
+}
+.myfooter footer-bottom{
+  background: gray;
+  width: 249%;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+footer-bottom{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+footer-bottom span{
+  text-transform: uppercase;
+  opacity: 4;
+  font-weight: 200;
+}
+
+
 
 @media (max-width:767px) {
-  .footer-dark .item:not(.social) {
+  .container .item:not(.social) {
     text-align:center;
     padding-bottom:20px;
   }
 }
-
-.footer-dark .item.text {
-  margin-bottom:36px;
-}
-
-@media (max-width:767px) {
-  .footer-dark .item.text {
-    margin-bottom:0;
-  }
-}
-
-.footer-dark .item.text p {
-  opacity:0.6;
-  margin-bottom:0;
-}
-
-.footer-dark .item.social {
-  text-align:center;
-}
-
 @media (max-width:991px) {
-  .footer-dark .item.social {
+  .container.item.social {
     text-align:center;
     margin-top:20px;
   }
 }
 
-.footer-dark .item.social > a {
-  font-size:20px;
-  width:36px;
-  height:36px;
-  line-height:36px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-  margin:0 8px;
-  color:#fff;
-  opacity:0.75;
-}
-
-.footer-dark .item.social > a:hover {
-  opacity:0.9;
-}
-
-.footer-dark .copyright {
-  text-align:center;
-  padding-top:24px;
-  opacity:0.3;
-  font-size:13px;
-  margin-bottom:0;
-};
-
-    
-
-
-/* On screens that are 900px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 900px) {
-    .container {
-      float: none;
-      width: 100%;
-      background-color: tan;
-    }
-  };
-
-
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
-  .body {
-    background-color: blue;
-  
+@media (max-width:767px) {
+  .container .item.text {
+    margin-bottom:0;
   }
 }
-
-/* On screens that are 400px or less, set the background color to olive medium screens */
-@media screen and (max-width: 400px) {
-  .body {
-    background-color: olive;
-    
-  }
-}
-
-

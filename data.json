@@ -6,8 +6,9 @@ let user = `[
         "lastName" : "Graham",
         "position" : "Bank Manager",
         "age": 35,
+        "description":"Presentation",
         "priority": 0,
-        "img": "images/monday.jpg"
+        "img": "monday.jpg"
         
     }, 
     {
@@ -16,8 +17,9 @@ let user = `[
         "lastName" : "George",
         "position" : "Secretary",
         "age": 30,
+        "description":"Project review",
         "priority": 0,
-        "img": "images/tuesday.jpg"
+        "img": "tuesday.jpg"
 
     }, 
     {
@@ -26,8 +28,9 @@ let user = `[
         "lastName" : "Seriman",
         "position" : "Programmer",
         "age": 32,
+        "description":"Meeting",
         "priority": 0,
-        "img": "images/wednesday.jpg"
+        "img": "wednesday.jpg"
 
     },
     {
@@ -36,8 +39,9 @@ let user = `[
         "lastName" : "Walker",
         "position" : "PR",
         "age": 40,
+        "description":"Candidates Interview",
         "priority": 0,
-        "img": "images/thursday.jpg"
+        "img": "thursday.jpg"
     },
      {
         "id":"20",
@@ -45,8 +49,19 @@ let user = `[
         "lastName" : "Emmanuel",
         "position" : "Cooker",
         "age": 38,
+        "description":"Weekly evaluation",
         "priority": 0,
-        "img": "images/friday.jpg"
+        "img": "friday.jpg"
+    
+    },
+    {
+        "id":"70",
+        "firstName" : "All",
+        "lastName" : "Family",
+        "position" : "Free day",
+        "description":"Weekend Shopping",
+        "priority": 0,
+        "img": "saturday.jpg"
     
     }
 ]`;
